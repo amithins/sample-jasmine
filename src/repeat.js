@@ -5,15 +5,7 @@ if (! String.prototype.repeat) {
 }
 
 isEqual = function(a,b){
-	if(a==b)
-	{
-		return true; 
-		
-	}else
-	{ 
-		return false; 
-		
-	}
+	if(a==b){ return true; }else{ return false; }
 }
 
 sayHello = function(){
